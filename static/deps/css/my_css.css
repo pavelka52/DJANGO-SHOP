@@ -12,11 +12,12 @@ body {
 }
 
 .custom-shadow {
-  box-shadow: 5px 5px 25px 19px #000000;
+  box-shadow: 5px 5px 25px 19px #93b613;
 }
 
 .product_id {
   color: gray;
+  /* Це залишає колір тексту сірим для product_id */
   font-size: 15px;
 }
 
@@ -28,11 +29,32 @@ body {
   padding: 5px 10px;
   border-radius: 3px;
   font-size: 1rem;
-  box-shadow: 2px 2px 15px 9px #000000;
+  box-shadow: 2px 2px 15px 9px #bdb213;
 }
 
 .badge-banner {
   top: 80%;
   border-radius: 15px;
   font-size: 0.7rem;
+}
+
+/* Зміна кольору тексту для основного заголовка на жовтий */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(233, 236, 70);
+  /* Яскраво-жовтий колір тексту */
+  text-shadow: 4px 4px 6px rgba(246, 6, 6, 0.6);
+  /* Тінь для покращення читабельності */
+}
+
+/* Якщо є текст в інших елементах, наприклад, в класах .text-content або ін. */
+.text-content {
+  color: yellow;
+  /* Жовтий колір тексту */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  /* Тінь для покращення видимості на фоні */
 }
